@@ -1,0 +1,13 @@
+<dataset>
+    <AUTHOR id="1" name="Kevin J. Anderson"/>
+    <AUTHOR id="2" name="Brian Herbert"/>
+
+    <BOOK id="1" title="The Machine Crusade"/>
+    <BOOK_AUTHORS authors_id="1" book_id="1"/>
+    <BOOK_AUTHORS authors_id="2" book_id="1"/>
+
+    <REVIEW id="1" author_name="Anonymous" text="Very good book!"/>
+    <REVIEW id="2" author_name="Anonymous" text="Very good book!"/>
+    <BOOK_REVIEWS reviews_id="1" book_id="1"/>
+    <BOOK_REVIEWS reviews_id="2" book_id="1"/>
+</dataset>
