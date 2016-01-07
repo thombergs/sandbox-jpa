@@ -16,8 +16,8 @@ class BookService {
         return bookRepository.findOne(id);
     }
 
-    public Book loadBookWithAuthorsAndReviews(Long id){
-       return bookRepository.findByIdFetchAuthorsAndReviews(id);
-    }
+//    public Book loadBookWithAuthorsAndReviews(Long id){
+//       return bookRepository.findByIdFetchAuthorsAndReviews(id);
+//    }
 
 }
